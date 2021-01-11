@@ -1,17 +1,4 @@
-<app-nav-bar>
-
-</app-nav-bar>
+<app-nav-bar></app-nav-bar>
 <div class="container mt-4"> 
     <router-outlet></router-outlet>
-    
-    {{ title }}
-    <br/>
-    {{ name }}
-    <br/>
-    <p>Input com Single Reference no Angular com os dados inseridos</p>
-    <input [ngModel] = "name" name = "name">
-    <br/>
-    <p>Input com Double References no Angular com os dados inseridos</p>
-    <input [(ngModel)] = "name" name = "name">
-
 </div>
